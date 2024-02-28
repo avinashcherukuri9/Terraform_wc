@@ -12,5 +12,14 @@ variable "AMI" {
 }
 
 variable "PUBLIC_KEY_PATH" {
-    default = "/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/Terraform_learning_demo/Terraform_learning_demo/oregon-region-key-pair.pub"
+    default = "C:/Users/Avinash/Desktop/Praveen_Devops/Terraform_wc/oregon-region-key-pair.pub"
 }
+variable "bucket_name" {
+  default     = "pythonpracticeheydevops1"
+}
+
+/*variable "s3_bucket_region" {
+  description = "AWS region where the S3 bucket will be created"
+  type        = string
+  #default     = "us-west-2"  # Default to US East (N. Virginia) region
+}*/
